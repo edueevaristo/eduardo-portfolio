@@ -11,9 +11,9 @@ li a {
     font-weight: 300 !important;
 }
 
-.navbar-brand {
-    color: white !important;
-    font-size: 29px !important;
+
+.nav-2 {
+    margin-right: 20px;
 }
 
 .image-layout {
@@ -60,10 +60,12 @@ li a {
     color: #ffffff !important;
     margin-top: 50px !important;
     width: 50px;
-   
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
 }
-
-
 
 .sobre-mim-text1 {
     font-size: 40px;
@@ -81,13 +83,20 @@ li a {
     border-top: 2px solid #00B4C1 !important;
     background-color: #00B4C1 !important;
     margin-top: 10px;
-    margin-left: 43.2%;
     margin-bottom: 30px;
-   
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .enfase-span {
     font-weight: 700 !important;
+}
+
+
+.navbar-nav li.nav-item:hover a.nav-link {
+    color: #ffffff !important;
 }
 
 /* @media (min-width: 621px) { 
