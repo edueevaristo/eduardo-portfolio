@@ -154,7 +154,9 @@ li a {
     height: 5%;
 }
 
-
+.img-education {
+    width: 55%;
+}
 
 @media (max-width: 1000px) {
     .nav-top-style {
