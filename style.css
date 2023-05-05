@@ -155,7 +155,54 @@ li a {
 }
 
 .img-education {
-    width: 55%;
+    width: 30% !important;
+    margin-top: 45px !important;
+}
+
+.educacao-text-title {
+    font-weight: 600;
+    color: var(--bg-terciary);
+    display: flex;
+    align-items: flex-start;
+}
+
+.educacao-text {
+    color: var(--bg-terciary) !important;
+}
+
+.hr-custom-footer {
+    border-top: 2px solid var(--bg-terciary) !important;
+    color: var(--bg-terciary) !important;
+    margin-top: 50px !important;
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-primary-background);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--bg-secondary)
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
 }
 
 @media (max-width: 1000px) {
@@ -264,47 +311,3 @@ li a {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Estiliza a scrollbar */
-::-webkit-scrollbar {
-    width: 8px;
-    /* Largura da scrollbar */
-}
-
-/* Cor de fundo da scrollbar */
-::-webkit-scrollbar-track {
-    background-color: var(--bg-primary-background);
-}
-
-/* Cor da scrollbar */
-::-webkit-scrollbar-thumb {
-    background-color: var(--bg-secondary)
-}
-
-/* Define a largura da scrollbar */
-::-webkit-scrollbar-thumb:vertical {
-    width: 8px;
-}
-
-/* Oculta a scrollbar quando não está rolando */
-::-webkit-scrollbar-thumb:vertical:active {
-    background-color: #aaa;
-}
-
-/* Define a largura da scrollbar quando o mouse passa por cima */
-::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
-}
